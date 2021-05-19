@@ -22,13 +22,7 @@ Please read the [exchange specific notes](docs/exchanges.md) to learn about even
 - [X] [Binance](https://www.binance.com/) ([*Note for binance users](docs/exchanges.md#blacklists))
 - [X] [Kraken](https://kraken.com/)
 - [X] [FTX](https://ftx.com)
-- [ ] [potentially many others](https://github.com/ccxt/ccxt/). _(We cannot guarantee they will work)_
 
-### Community tested
-
-Exchanges confirmed working by the community:
-
-- [X] [Bitvavo](https://bitvavo.com/)
 
 ## Documentation
 
