@@ -1,13 +1,5 @@
-# ![freqtrade](https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade_poweredby.svg)
 
-[![Freqtrade CI](https://github.com/freqtrade/freqtrade/workflows/Freqtrade%20CI/badge.svg)](https://github.com/freqtrade/freqtrade/actions/)
-[![Coverage Status](https://coveralls.io/repos/github/freqtrade/freqtrade/badge.svg?branch=develop&service=github)](https://coveralls.io/github/freqtrade/freqtrade?branch=develop)
-[![Documentation](https://readthedocs.org/projects/freqtrade/badge/)](https://www.freqtrade.io)
-[![Maintainability](https://api.codeclimate.com/v1/badges/5737e6d668200b7518ff/maintainability)](https://codeclimate.com/github/freqtrade/freqtrade/maintainability)
-
-Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
-
-![freqtrade](https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade-screenshot.png)
+![screen](https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade-screenshot.png)
 
 ## Disclaimer
 
@@ -42,8 +34,6 @@ Exchanges confirmed working by the community:
 
 We invite you to read the bot documentation to ensure you understand how the bot is working.
 
-Please find the complete documentation on our [website](https://www.freqtrade.io).
-
 ## Features
 
 - [x] **Based on Python 3.7+**: For botting on any operating system - Windows, macOS and Linux.
@@ -51,7 +41,7 @@ Please find the complete documentation on our [website](https://www.freqtrade.io
 - [x] **Dry-run**: Run the bot without paying money.
 - [x] **Backtesting**: Run a simulation of your buy/sell strategy.
 - [x] **Strategy Optimization by machine learning**: Use machine learning to optimize your buy/sell strategy parameters with real exchange data.
-- [x] **Edge position sizing** Calculate your win rate, risk reward ratio, the best stoploss and adjust your position size before taking a position for each specific market. [Learn more](https://www.freqtrade.io/en/latest/edge/).
+- [x] **Edge position sizing** Calculate your win rate, risk reward ratio, the best stoploss and adjust your position size before taking a position for each specific market.
 - [x] **Whitelist crypto-currencies**: Select which crypto-currency you want to trade or use dynamic whitelists.
 - [x] **Blacklist crypto-currencies**: Select which crypto-currency you want to avoid.
 - [x] **Manageable via Telegram**: Manage the bot with Telegram.
@@ -59,17 +49,6 @@ Please find the complete documentation on our [website](https://www.freqtrade.io
 - [x] **Daily summary of profit/loss**: Provide a daily summary of your profit/loss.
 - [x] **Performance status report**: Provide a performance status of your current trades.
 
-## Quick start
-
-Freqtrade provides a Linux/macOS script to install all dependencies and help you to configure the bot.
-
-```bash
-git clone -b develop https://github.com/freqtrade/freqtrade.git 
-cd freqtrade
-./setup.sh --install
-```
-
-For any other type of installation please refer to [Installation doc](https://www.freqtrade.io/en/latest/installation/).
 
 ## Basic Usage
 
@@ -117,8 +96,6 @@ optional arguments:
 
 ### Telegram RPC commands
 
-Telegram is not mandatory. However, this is a great way to control your bot. More details and the full command list on our [documentation](https://www.freqtrade.io/en/latest/telegram-usage/)
-
 - `/start`: Starts the trader.
 - `/stop`: Stops the trader.
 - `/stopbuy`: Stop entering new trades.
@@ -144,43 +121,6 @@ The project is currently setup in two main branches:
 ### Help / Discord / Slack
 
 For any questions not covered by the documentation or for further information about the bot, or to simply engage with like-minded individuals, we encourage you to join our slack channel.
-
-Please check out our [discord server](https://discord.gg/MA9v74M).
-
-You can also join our [Slack channel](https://join.slack.com/t/highfrequencybot/shared_invite/zt-mm786y93-Fxo37glxMY9g8OQC5AoOIw).
-
-### [Bugs / Issues](https://github.com/freqtrade/freqtrade/issues?q=is%3Aissue)
-
-If you discover a bug in the bot, please
-[search our issue tracker](https://github.com/freqtrade/freqtrade/issues?q=is%3Aissue)
-first. If it hasn't been reported, please
-[create a new issue](https://github.com/freqtrade/freqtrade/issues/new/choose) and
-ensure you follow the template guide so that our team can assist you as
-quickly as possible.
-
-### [Feature Requests](https://github.com/freqtrade/freqtrade/labels/enhancement)
-
-Have you a great idea to improve the bot you want to share? Please,
-first search if this feature was not [already discussed](https://github.com/freqtrade/freqtrade/labels/enhancement).
-If it hasn't been requested, please
-[create a new request](https://github.com/freqtrade/freqtrade/issues/new/choose)
-and ensure you follow the template guide so that it does not get lost
-in the bug reports.
-
-### [Pull Requests](https://github.com/freqtrade/freqtrade/pulls)
-
-Feel like our bot is missing a feature? We welcome your pull requests!
-
-Please read our
-[Contributing document](https://github.com/freqtrade/freqtrade/blob/develop/CONTRIBUTING.md)
-to understand the requirements before sending your pull-requests.
-
-Coding is not a necessity to contribute - maybe start with improving our documentation?
-Issues labeled [good first issue](https://github.com/freqtrade/freqtrade/labels/good%20first%20issue) can be good first contributions, and will help get you familiar with the codebase.
-
-**Note** before starting any major new feature work, *please open an issue describing what you are planning to do* or talk to us on [discord](https://discord.gg/MA9v74M) or [Slack](https://join.slack.com/t/highfrequencybot/shared_invite/zt-mm786y93-Fxo37glxMY9g8OQC5AoOIw). This will ensure that interested parties can give valuable feedback on the feature, and let others know that you are working on it.
-
-**Important:** Always create your PR against the `develop` branch, not `stable`.
 
 ## Requirements
 
